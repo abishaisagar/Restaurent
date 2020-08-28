@@ -9,6 +9,10 @@ body{
   line-height: 1.5;
 
 }
+.title{
+  font-size:60px;
+  color:white;
+}
 .title-text{
   font-size: 40px;
   text-align: center;
@@ -16,7 +20,7 @@ body{
 .header{
   min-height: 100vh;
   background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4)),
-  url('../background.jpg') center/cover no-repeat fixed;
+  url('../Images/background.jpg') center/cover no-repeat fixed;
   margin-top: auto;
 }
 .hero{
@@ -63,6 +67,7 @@ body{
 .about{
   margin: 30px;
   display: flex;
+  
 
 }
 .about-subtitle{
@@ -79,7 +84,7 @@ body{
 .about-subtitle:hover{
   transition: transform 2s ease, color 2s ease;
   transform: translateY(-5px);
-  color: silver;
+  color:black;
   cursor: pointer;
 }
 @media screen and (min-width: 576px){
@@ -100,7 +105,7 @@ body{
 /*===menu section==*/
 .menu-image{
   min-height: 80vh;
-  background:url('../menu.jpg')center/cover fixed no-repeat;
+  background:url('../Images/menu.jpg')center/cover fixed no-repeat;
 }
 .menu-text{
   min-height: 80px;
@@ -135,15 +140,18 @@ body{
   color: white;
   cursor: pointer;
   border: 2px solid #000;
+  
 }
 .menu-text a:hover{
   color: gray;
   background: #fff;
   border: none;
+
 }
-@media screen and (min-width: 776px ){
+@media screen and (min-width: 500px ){
   .menu{
     display:flex;
+    
 
   }
   .menu-text{
@@ -153,19 +161,15 @@ body{
   .menu-image{
     flex: 0 0 70%;
     clip-path: polygon(0 0, 100% 0,50% 100%, 0 100%);
+    
 }.menu{
-  background: lightgray;
+  background:lightgray;
+  
+  
+  
 }
 
 }
-
-
-
-
-
-
-
-
-
 
 /*=== end of menu section==*/
+
